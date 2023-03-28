@@ -30,6 +30,8 @@
 
 .box_list {
   list-style-type: none;
+  height: 200px;
+  overflow: auto;
 }
 
 button {
@@ -64,4 +66,8 @@ button {
 .clicked_list_item {
   background-color: blue;
   color: white;
+}
+
+.disabled_button {
+  background-color: red;
 }
